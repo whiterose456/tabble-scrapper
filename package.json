@@ -1,0 +1,10 @@
+{
+  "name": "table-scraper-extension",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Dependency-free checks for the Table Scraper Chrome extension",
+  "scripts": {
+    "check": "node --check popup.js && node --check content.js",
+    "test": "node --test"
+  }
+}
